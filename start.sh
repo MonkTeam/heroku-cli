@@ -1,1 +1,1 @@
-npm install && ./aria.sh && npm start
+npm install && bash ./aria.sh && npm start
