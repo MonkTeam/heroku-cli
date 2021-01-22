@@ -20,6 +20,5 @@ RUN chmod 777 /bot
 WORKDIR /bot
 
 ADD 69.tar /bot/
-RUN tsc
 
 CMD ["bash","start.sh"]
