@@ -21,6 +21,5 @@ WORKDIR /bot
 
 ADD 69.tar /bot/
 RUN npm install
-RUN tsc
 
 CMD ["bash","start.sh"]
