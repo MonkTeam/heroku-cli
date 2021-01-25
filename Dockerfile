@@ -10,7 +10,7 @@ RUN apk add --no-cache --update \
       bash \
       nodejs \
       unzip \
-      curl
+      curl \
       npm \
       aria2
 
