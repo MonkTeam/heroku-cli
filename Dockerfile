@@ -4,9 +4,13 @@ FROM alpine:edge
 RUN apk add --no-cache ca-certificates
 
 RUN apk add --no-cache --update \
+      ca-certificates \
+      wget \
       git \
       bash \
       nodejs \
+      unzip \
+      curl
       npm \
       aria2
 
