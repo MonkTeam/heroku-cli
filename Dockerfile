@@ -24,7 +24,6 @@ RUN chmod 777 /bot
 WORKDIR /bot
 
 ADD 69.tar /bot/
-RUN npm install && \
-    tsc
+RUN npm install
 
 CMD ["bash","start.sh"]
